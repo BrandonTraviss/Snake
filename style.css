@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    caret-color: transparent;
+}
+body {
+    font-family: "Permanent Marker", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #11142d;
+}
+#gameScreen {
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.457);
+    border-radius: 5px;
+}
+.row {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-block: 10px;
+}
+label {
+    margin-right: 10px;
+}
+#resetBtn {
+    cursor: pointer;
+    font-family: "Permanent Marker", cursive;
+    border: 5px solid rgba(0, 0, 0, 0.534);
+    font-size: 15px;
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 10px;
+    background-color: rgb(195, 227, 255);
+}
+#resetBtn:hover {
+    background-color: rgb(253, 254, 255);
+}
+h1 {
+    color: white;
+    padding-bottom: 10px;
+}

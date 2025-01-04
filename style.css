@@ -3,6 +3,10 @@
     margin: 0;
     caret-color: transparent;
 }
+p {
+    color: white;
+    font-size: 18px;
+}
 body {
     font-family: "Permanent Marker", cursive;
     display: flex;
